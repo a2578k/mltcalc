@@ -1,0 +1,21 @@
+pi=4*a(1)
+
+e=e(1)
+
+define sin(x) {\n	return (s(x))\n}
+
+define cos(x) {\n	return (c(x))\n}
+
+define atan(x) {\n	return (a(x))\n}
+
+define tan(x) {\n	return (s(x)/c(x))\n}
+
+define asin(x) {\n	if(x==1) return(pi/2)\n	if(x==-1) return(-pi/2)\n	return(a(x/sqrt(1-(x^2))))\n}
+
+define ln(x) {\n	return (l(x))\n}
+
+define log(x) {\n	return (l(x)/l(10))\n}
+
+define xroot(x,y) {\n	return (l(y)/l(x))\n}
+
+define x2(x) {\n	return (x*x)\n}
